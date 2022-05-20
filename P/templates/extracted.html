@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>OCR</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div id="logo">
+        <h1 class="ocr" ><a href="/">OCR</a></h1>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="/#hero" style="color: black;">Home</a></li>
+          <li><a class="nav-link scrollto" href="/#about" style="color: black;">Extraction</a></li>
+          <li><a class="nav-link scrollto" href="/#translation" style="color: black;">Translation</a></li>
+
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+
+  <main id="main">
+
+    <!-- ======= Extraction Section ======= -->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row about-containers">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <h2 class="title">Text Extractor</h2>
+            <p>
+              Text extraction, often referred to as keyword extraction, uses machine learning to automatically scan text and extract relevant or core words and phrases from unstructured data.            </p>
+
+    
+
+              <div>
+                <div>
+                  <textarea class="form-control" rows="8" id="comment">{{ extracted }}</textarea>
+                       <a href='/#about' class="button">Upload Again</a>
+                  </form>
+                </div>
+              </div>
+              
+
+
+
+
+
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1" data-aos="fade-left" data-aos-delay="100">
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Extraction Section -->
+
+ <div class="footer">
+     <div class="footer-logo">
+     <br>
+  </div>
+      <div class="footer-ac">
+       <a href="/#hero">-Home</a><br>
+       <a href="/#about">-Extraction</a><br>
+       <a href="/#translation">-Translation</a><br>
+      <center><p style="width: 400px;">DESIGNED BY: Mehul Komal Shivani Vidhan</p></center>
+   </div>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/purecounter/purecounter.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+
+</html>
